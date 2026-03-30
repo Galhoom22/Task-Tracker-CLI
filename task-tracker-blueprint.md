@@ -113,7 +113,7 @@ php task-cli.php list done
 
 ## Numbered Features — Build In This Order
 
-### Feature 1 — Storage Layer (`src/storage.php`)
+### Feature 1 — Storage Layer (`src/storage.php`) ✅
 
 **Goal:** Build the foundation that reads and writes the JSON file. This is the most isolated piece — build it first so everything else has a stable base.
 
