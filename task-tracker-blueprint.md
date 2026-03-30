@@ -131,7 +131,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 2 — CLI Input Handler (`src/cli_handler.php`)
+### Feature 2 — CLI Input Handler (`src/cli_handler.php`) ✅
 
 **Goal:** Parse the raw `$argv` array into a clean, structured command array that the rest of the app can work with — without caring about filesystem or tasks at all.
 
