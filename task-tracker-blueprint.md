@@ -250,7 +250,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 8 — Dispatcher (`src/dispatcher.php`)
+### Feature 8 — Dispatcher (`src/dispatcher.php`) ✅
 
 **Goal:** Wire commands to task manager functions. This is the traffic controller.
 
