@@ -267,7 +267,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 9 — Entry Point (`task-cli.php`)
+### Feature 9 — Entry Point (`task-cli.php`) ✅
 
 **Goal:** The bootstrap file. Thin, clean, and under ~15 lines of logic.
 
