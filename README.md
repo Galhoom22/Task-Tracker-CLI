@@ -50,8 +50,8 @@ Built in pure PHP 8.x — no Composer, no frameworks, no external libraries.
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/task-tracker-cli.git
-cd task-tracker-cli
+git clone https://github.com/Galhoom22/Task-Tracker-CLI.git
+cd Task-Tracker-CLI
 ```
 
 > No build step. No dependencies. Just run it.
