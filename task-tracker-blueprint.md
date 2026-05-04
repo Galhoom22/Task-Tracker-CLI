@@ -154,7 +154,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 3 — Validator (`src/validator.php`)
+### Feature 3 — Validator (`src/validator.php`) ✅
 
 **Goal:** Validate parsed input before any logic runs. Be the gatekeeper.
 
@@ -177,7 +177,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 4 — Output Formatter (`src/output.php`)
+### Feature 4 — Output Formatter (`src/output.php`) ✅
 
 **Goal:** Centralize all terminal output. No `echo` should exist outside this file.
 
@@ -197,7 +197,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 5 — Task Manager — Add & List (`src/task_manager.php`)
+### Feature 5 — Task Manager — Add & List (`src/task_manager.php`) ✅
 
 **Goal:** Implement the first two core task operations. Work only with arrays — never touch files directly.
 
@@ -216,7 +216,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 6 — Task Manager — Update & Delete (`src/task_manager.php`)
+### Feature 6 — Task Manager — Update & Delete (`src/task_manager.php`) ✅
 
 **Goal:** Extend the task manager with mutation operations.
 
@@ -234,7 +234,7 @@ php task-cli.php list done
 
 ---
 
-### Feature 7 — Task Manager — Mark Status (`src/task_manager.php`)
+### Feature 7 — Task Manager — Mark Status (`src/task_manager.php`) ✅
 
 **Goal:** Implement status transitions.
 
