@@ -1,0 +1,21 @@
+{
+    "meta": {
+        "next_id": 3
+    },
+    "tasks": [
+        {
+            "id": 1,
+            "description": "Buy groceries",
+            "status": "done",
+            "createdAt": "2026-05-04 23:27:10",
+            "updatedAt": "2026-05-04 23:27:23"
+        },
+        {
+            "id": 2,
+            "description": "Second task",
+            "status": "todo",
+            "createdAt": "2026-05-04 23:27:14",
+            "updatedAt": "2026-05-04 23:27:14"
+        }
+    ]
+}

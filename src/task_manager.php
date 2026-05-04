@@ -11,8 +11,8 @@ function add_task(array &$data, string $description): int
         'id'          => $id,
         'description' => $description,
         'status'      => 'todo',
-        'created_at'  => $now,
-        'updated_at'  => $now,
+        'createdAt'   => $now,
+        'updatedAt'   => $now,
     ];
 
     $data['meta']['next_id']++;
@@ -40,7 +40,7 @@ function update_task(array &$data, int $id, string $description): bool
     foreach ($data['tasks'] as &$task) {
         if ($task['id'] === $id) {
             $task['description'] = $description;
-            $task['updated_at']  = date('Y-m-d H:i:s');
+            $task['updatedAt']   = date('Y-m-d H:i:s');
             return true;
         }
     }
@@ -63,7 +63,7 @@ function change_task_status(array &$data, int $id, string $new_status): bool
     foreach ($data['tasks'] as &$task) {
         if ($task['id'] === $id) {
             $task['status']     = $new_status;
-            $task['updated_at'] = date('Y-m-d H:i:s');
+            $task['updatedAt']  = date('Y-m-d H:i:s');
             return true;
         }
     }

@@ -20,7 +20,7 @@ function output_task_list(array $tasks): void
     }
 
     foreach ($tasks as $task) {
-        echo "#{$task['id']} | {$task['status']} | {$task['description']} | {$task['created_at']}" . PHP_EOL;
+        echo "#{$task['id']} | {$task['status']} | {$task['description']} | {$task['createdAt']}" . PHP_EOL;
     }
 }
 

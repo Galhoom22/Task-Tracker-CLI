@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-define('DATA_FILE', __DIR__ . '/data/tasks.json');
+define('DATA_FILE', __DIR__ . '/tasks.json');
 
 require_once __DIR__ . '/src/storage.php';
 require_once __DIR__ . '/src/cli_handler.php';
